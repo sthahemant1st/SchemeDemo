@@ -14,6 +14,8 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundStyle(.tint)
             Text("Hello, world!")
+            let baseUrl = Bundle.main.object(forInfoDictionaryKey: "BASE_URL") as? String ?? "no base url"
+            Text("BaseUrl: \(baseUrl)")
         }
         .padding()
     }

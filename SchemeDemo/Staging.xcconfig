@@ -1,0 +1,6 @@
+//  Development.xcconfig
+//  SchemeDemo
+//
+
+BaseUrl = staging.example.com
+AppName = SchemeDemoStaging

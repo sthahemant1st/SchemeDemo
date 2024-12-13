@@ -1,0 +1,7 @@
+//
+//  Development.xcconfig
+//  SchemeDemo
+//
+
+BaseUrl = example.com
+AppName = SchemeDemo
